@@ -1,5 +1,5 @@
 server:
-  port: 8000
+  port: 8001
 spring:
   application:
     name: microservice-provider-user
@@ -12,6 +12,7 @@ spring:
     platform: h2
     schema: classpath:schema.sql
     data: classpath:data.sql
+    sql-script-encoding: utf-8
 eureka:
   client:
     serviceUrl:
